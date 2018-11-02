@@ -126,8 +126,7 @@
   }
   
   #rating {
-      width: 100px;
-      min-width: 100px;
+      
   }
   
   #innerName {
@@ -165,35 +164,18 @@
   }
   
   #prices {
-      width: 80px;
-      min-width: 80px;
+      
   }
   
   #tsupply {
-  
+      width: 150px;
+      min-width: 150px;
+  }
+
+  #reqs {
+      
   }
   
-  #tsupply03 {
-  width: 150px;
-  min-width: 150px;
-  }
-  
-  #reqs03 {
-  }
-  
-  #types03 {
-  text-align: center;
-  }
-  
-  #KYC03 {
-  text-align: center;
-  }
-  
-  #countDowns03 {
-  text-align: center;
-  width: 150px;
-  min-width: 150px;
-  }
   
   #countDown01, #countDown02, #countDown03, #countDown04, #countDown05, #countDown06, #countDown07, #countDown08,
   #countDown09, #countDown10, #countDown11, #countDown12, #countDown13, #countDown14, #countDown15, #countDown16 {
