@@ -75,10 +75,6 @@
       min-width: 60px;
   }
   
-  #names {
-  
-  }
-  
   #rating {
       width: 80px;
       min-width: 80px;
@@ -127,19 +123,6 @@
       text-align: center;
   }
   
-  #prices {
-      
-  }
-  
-  #tsupply {
-
-  }
-
-  #reqs {
-      
-  }
-  
-  
   #countDown01, #countDown02, #countDown03, #countDown04, #countDown05, #countDown06, #countDown07, #countDown08,
   #countDown09, #countDown10, #countDown11, #countDown12, #countDown13, #countDown14, #countDown15, #countDown16 {
       color: #000;
@@ -182,8 +165,8 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow:hidden;
-    padding-top:19px;
-    padding-bottom:19px;
+    padding-top:18px;
+    padding-bottom:18px;
     height: 50px;
     min-height: 50px;
   }

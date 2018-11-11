@@ -605,3 +605,126 @@ var	on = addEventListener,
 			}
 
 		}
+
+
+
+
+
+
+		function createCountDown(elementId, date) {
+
+			var countDownDate = new Date(date).getTime();
+		
+			var x = setInterval(function() {
+		
+			var now = new Date().getTime();
+		
+			var distance = countDownDate - now;
+		
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		
+			if (days > 7) {
+				//document.getElementById(elementId).style.backgroundColor = "#B7EDAA";
+			}
+			else if (days > 3 && days < 7) {
+				//document.getElementById(elementId).style.backgroundColor = "#EBD2AD";
+			}
+			else {
+				//document.getElementById(elementId).style.backgroundColor = "#E9BBCA";
+			}
+		
+			document.getElementById(elementId).innerHTML = days + "d ";
+		
+			if (distance < 0) {
+			clearInterval(x);
+			document.getElementById(elementId).innerHTML = "Ended";
+			}
+			}, 1000);
+			}
+		
+			createCountDown("countDown1", "2018-10-30")
+			createCountDown("countDown2", "2018-10-30")
+			createCountDown("countDown3", "2018-10-30")
+			createCountDown("countDown4", "2018-10-28 24:00:00")
+			createCountDown("countDown5", "2018-10-27 24:00:00")
+			createCountDown("countDown6", "2018-10-27 24:00:00")
+			createCountDown("countDown7", "2018-10-29 24:00:00")
+			createCountDown("countDown8", "2018-10-29 24:00:00")
+			createCountDown("countDown9", "2018-10-27 24:00:00")
+			createCountDown("countDown10", "2018-10-27 24:00:00")
+		
+			var likeCount = 0;
+		
+			function like(){
+				likeCount++;
+				document.getElementById('likeCount').innerHTML = likeCount;
+			}
+		
+			var likeCount2 = 0;
+		
+			function like2(){
+				likeCount2++;
+				document.getElementById('likeCount2').innerHTML = likeCount2;
+			}
+		
+			var likeCount3 = 0;
+		
+			function like3(){
+				likeCount3++;
+				document.getElementById('likeCount3').innerHTML = likeCount3;
+			}
+		
+			var likeCount4 = 0;
+			
+			function like4(){
+				likeCount4++;
+				document.getElementById('likeCount4').innerHTML = likeCount4;
+			}
+		
+			var likeCount5 = 0;
+		
+			function like5(){
+				likeCount5++;
+				document.getElementById('likeCount5').innerHTML = likeCount5;
+			}
+		
+			var likeCount6 = 0;
+		
+			function like6(){
+				likeCount6++;
+				document.getElementById('likeCount6').innerHTML = likeCount6;
+			}
+		
+			var likeCount7 = 0;
+		
+			function like7(){
+				likeCount7++;
+				document.getElementById('likeCount7').innerHTML = likeCount7;
+			}
+		
+			var likeCount8 = 0;
+		
+			function like8(){
+				likeCount8++;
+				document.getElementById('likeCount8').innerHTML = likeCount8;
+			}
+		
+			var likeCount9 = 0;
+		
+			function like9(){
+				likeCount9++;
+				document.getElementById('likeCount9').innerHTML = likeCount9;
+			}
+		
+			var likeCount10 = 0;
+		
+			function like10(){
+				likeCount10++;
+				document.getElementById('likeCount10').innerHTML = likeCount10;
+			}
+		
+		
+		
